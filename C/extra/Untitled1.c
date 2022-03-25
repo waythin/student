@@ -7,10 +7,7 @@
 int main()
 {
 
-    char s[100];
-     printf("Enter your bio : ");
-    scanf("%[^\n]%*c", &s);
-    printf("Hello World! \n");
-    printf("%s",s);
+    int a =30;
+    printf("The pointer is : %p ", &a);
     return 0;
 }

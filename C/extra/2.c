@@ -9,22 +9,14 @@ int main()
     char s[20];
     char sen[50];
 
-    printf("Character : ");
     scanf(" %c", &ch);
-    printf("\n");
-    printf("The character is : %c", ch);
-    printf("\n\n");
+    printf("%c \n", ch);
 
-    printf("String : ");
-    scanf("%s", s);
-    printf("\n");
-    printf("The string is : %s", s);
-    printf("\n\n");
+    scanf("%s", &s);
+    printf("%s \n", s);
 
-    printf("Sentence : ");
-    scanf("%[^\n]%*c", sen);
-    printf("\n");
-    printf("The Sentence : %s", sen);
-     printf("\n\n");
+    scanf(" %[^\n]%*c", &sen);
+    printf("%s", sen);
+
     return 0;
 }
